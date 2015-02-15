@@ -1,0 +1,102 @@
+[B]v1.3.0[/B]
+- Fixed JanLul.com
+
+[B]v1.2.9[/B]
+- STV Streams is back to Veetle
+- DazSports is back to Veetle (stream 4 and 5)
+- Some streamers tried to be secure with the "X-Frame: Same-Origin" Header, but they dont know my wisdom :-)
+
+[B]v1.2.8[/B]
+- Added MooiDatHetZoKan
+- Added sports-streams
+KNOWN BUGS:
+- STV Streams is also changing to another provider, but could not find the source for now.
+
+[B]v1.2.7[/B]
+- DazSports changed his stream provider
+
+[B]v1.2.6[/B]
+- Added timeout setting
+- Added backgrounds
+- Added Refresh functionality to context menu
+- added Stream LMMG3
+
+[B]v1.2.5[/B]
+- get angry, version double dump :-)
+
+[B]v1.2.4[/B]
+- Version bump
+
+[B]v1.2.3[/B]
+- Bugfix P2P-Streams wouldn't start
+
+[B]v1.2.2[/B]
+- Added LMMG Streamer
+- Added online stream info sopcast streams
+
+[B]v1.2.1[/B]
+- Added BVLS Streamer
+
+[B]V1.2.0[/B]
+- Online/Offline detectie m.u.v. Acestreams
+- JanLul 6 toegevoegd
+
+[B]V1.1.9[/B]
+- DazSports
+- ACE Stream toegevoegd
+- STV Streams
+- Flash 5 toegevoegd
+- Flash 6 toegevoegd
+- ACE HD toegevoegd
+- ACE HD 2 toegevoegd
+-13th stream toegevoegd
+[B]Known bugs:[/B]
+- DazSports forum ligt er uit, waardoor de acestream niet geladen kan worden
+- STV 5 en 6 worden middels m3u ingeladen. Soms doet deze het pas na een paar keer aanklikken (ivm een sessie/cookie)
+- de nieuwe streams worden nog niet gecontroleerd op online of offline
+
+[B]V1.1.7[/B]
+- Fix port is in use by P2P-Streams
+- Code cleanup
+
+[B]V1.1.6[/B]
+- Fanarts + icons
+- Changed License to Creative Commons Attribution-NonCommercial 4.0 International Public License
+
+[B]V1.1.5[/B]
+- Added STV Streams
+
+[B]V1.1.4[/B]
+- Added Achterdijn Sports Stream
+
+[B]V1.1.2[/B]
+- Added a main menu.
+- removed "setResolvedUrl" cause it breaks the item list
+
+[B]V1.1[/B]
+- Multiple stream providers
+-- Jan Lul
+-- DazSports
+-- DSC+ Streams
+- Fixing bug: play by contect menu
+
+[B]V1.0[/B]
+- First Release!
+- implemented Veetle plugin
+- Known Bug: Play by context menu
+
+[B]V0.0.5 - V0.0.9[/B]
+- Bugfixes
+-- Video not played under Gotham
+
+[B]V0.0.4[/B]
+- Beautify the UI and log some stuff
+
+[B]V0.0.3[/B]
+- Jan Lul has changed his URLs
+
+[B]V0.0.2[/B]
+- Read the stream site and decode the movie URL
+
+[B]V0.0.1[/B]
+- Initial version

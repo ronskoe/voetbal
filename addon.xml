@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hollandsport" name="Holland Sport" version="1.0.0" provider-name="Team-HollandSport">
+	<requires>
+		<import addon="plugin.video.veetle" version="0.3.1" optional="false"/>
+		<import addon="plugin.video.p2p-streams" version="1.1" optional="false"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension  point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<source>https://github.com/patricx/plugin.video.hollandsport</source>
+		<summary lang="nl">Bekijk de streams van Nederlandse Sport Streamproviders op uw XBMC / Kodi.</summary>
+		<description lang="nl">Met deze plugin is het mogelijk om streams van Nederlandse stream providers te bekijken.[CR]Let op: Veetle dient te zijn geinstalleerd.</description>
+		<summary lang="en">Watch the streams of Holland Sport Stream providers on your XBMC / Kodi.</summary>
+		<description lang="en">This plugin enables you to play Holland Sport Streams on you XBMC / Kodi.</description>
+		<disclaimer>Develop with me on GitHub.com. https://github.com/patricx/plugin.video.hollandsport</disclaimer>
+		<language></language>
+		<platform>all</platform>
+	</extension>
+</addon>
