@@ -1,8 +1,8 @@
 import os
 import xbmc, xbmcaddon
 
-__settings__ = xbmcaddon.Addon(id='plugin.video.janlul')
-__icon__ = xbmcaddon.Addon(id='plugin.video.janlul').getAddonInfo('icon')
+__settings__ = xbmcaddon.Addon(id='plugin.video.hollandsport')
+__icon__ = xbmcaddon.Addon(id='plugin.video.hollandsport').getAddonInfo('icon')
 
 rootDir = xbmc.translatePath(__settings__.getAddonInfo('path')).decode('utf-8')
 resDir = os.path.join(rootDir, 'resources')
