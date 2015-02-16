@@ -1,7 +1,7 @@
 import urllib2, re, base64
 import xbmcutil
 
-basesite = 'http://www.dutchsportsstreams.nl/'
+basesite = 'http://www.connexa.org/'
 
 def getUserAgent():
     link = basesite + 'getua.php'
