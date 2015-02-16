@@ -64,7 +64,7 @@ def getFanart(streamer):
     return fanart
 
 def getTimeout():
-    addon = xbmcaddon.Addon('plugin.video.janlul')
+    addon = xbmcaddon.Addon('plugin.video.hollandsport')
     reqTimeout = addon.getSetting('reqTimeout')
     print("SETTING: TIMEOUT="+reqTimeout+"sec")
     return int(reqTimeout)
