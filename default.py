@@ -21,7 +21,7 @@ progIncrease = 19
 
 xbmcplugin.setContent(addon_handle, 'movies')
 
-addon = xbmcaddon.Addon('plugin.video.janlul')
+addon = xbmcaddon.Addon('plugin.video.hollandsport')
 newFeatures = addon.getSetting('newFeatures')
 
 def addSubMenu(internal, readable):
@@ -65,7 +65,7 @@ def addDummyItem(labelString, icon=False, iconName = '', fanart=False, fanartNam
     if fanart:
         fanartimg = xbmcutil.getFanart(fanartName)
         li.setProperty('fanart_image',fanartimg)
-    xbmcplugin.addDirectoryItem(handle=addon_handle, url='plugin://plugin.video.janlul/none', listitem=li)
+    xbmcplugin.addDirectoryItem(handle=addon_handle, url='plugin://plugin.video.hollandsport/none', listitem=li)
 
 argSite = args.get('site', None)
 playUrl = args.get('play', None)
@@ -93,7 +93,7 @@ if argSite is None:
         xbmc.Player().play(pl)
 else:
     site = argSite[0]
-    pDialog.create('Dutch Sports Streams', 'Laden van streams...')
+    pDialog.create('Holland Sport', 'Laden van streams...')
     if site == 'janlul': #Janlul.com
         janlul.addStreams()
     elif site == 'daz': #DazSports.org
